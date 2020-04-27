@@ -32,6 +32,8 @@ requirements:
     - pillow
     - py-opencv 
     - pyqt
+    - openpyxl
+    - opencv
 
 test:
   imports:
