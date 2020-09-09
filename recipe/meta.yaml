@@ -1,5 +1,5 @@
 {% set name = "temmeta" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1ef7467c3acada0a75fc2e7a5c3559ef8c2af1b0f3bb34cc9d891244f267f4f8
-  
+  sha256: b368a3a92b9f83e15420c35c6650f0e2b5c0fb0a7cd25c776b10d9d9677b7da1
+
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -29,7 +29,7 @@ requirements:
     - matplotlib-scalebar
     - tqdm
     - pillow
-    - py-opencv 
+    - py-opencv
     - pyqt
 
 test:
@@ -41,7 +41,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE  # license file is available in the next release - therefore the license file in the feedstock can be removed.
-  summary: 'TEMMETA is a library for transmission electron microscopy (TEM) (meta)data manipulation.'
+  summary: TEMMETA is a library for transmission electron microscopy (TEM) (meta)data manipulation.
 
   description: |
     TEMMETA is a library for transmission electron microscopy (TEM) 
