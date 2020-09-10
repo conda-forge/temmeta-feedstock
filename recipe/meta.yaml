@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -24,13 +24,10 @@ requirements:
     - numpy
     - matplotlib-base
     - scipy
-    - jupyter
     - hyperspy
     - matplotlib-scalebar
     - tqdm
     - pillow
-    - py-opencv
-    - pyqt
 
 test:
   imports:
