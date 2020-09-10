@@ -1,5 +1,5 @@
 {% set name = "temmeta" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b368a3a92b9f83e15420c35c6650f0e2b5c0fb0a7cd25c776b10d9d9677b7da1
+  sha256: 764b40fe9b55431e805d0364418323a87ff96891cba88dab0ba0d1c821002c8d
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
