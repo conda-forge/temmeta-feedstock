@@ -24,7 +24,6 @@ requirements:
     - numpy
     - matplotlib-base
     - scipy
-    - jupyter
     - hyperspy
     - matplotlib-scalebar
     - tqdm
