@@ -1,0 +1,17 @@
+From d1bb8f37d218009b17a89e2018661e474d6d8db2 Mon Sep 17 00:00:00 2001
+From: Jan Janssen <jan-janssen@users.noreply.github.com>
+Date: Thu, 10 Sep 2020 19:05:10 +0200
+Subject: [PATCH] Create __init__.py
+
+---
+ temmeta/roi/__init__.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 temmeta/roi/__init__.py
+
+diff --git a/temmeta/roi/__init__.py b/temmeta/roi/__init__.py
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/temmeta/roi/__init__.py
+@@ -0,0 +1 @@
++
