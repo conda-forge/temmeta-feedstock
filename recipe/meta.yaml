@@ -29,8 +29,6 @@ requirements:
     - matplotlib-scalebar
     - tqdm
     - pillow
-    - py-opencv
-    - pyqt
 
 test:
   imports:
