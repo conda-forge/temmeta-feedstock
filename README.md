@@ -5,9 +5,13 @@ Home: https://github.com/din14970/TEMMETA
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/temmeta-feedstock/blob/master/LICENSE.txt)
 
 Summary: TEMMETA is a library for transmission electron microscopy (TEM) (meta)data manipulation.
+
+Development: https://github.com/din14970/TEMMETA
+
+Documentation: https://github.com/din14970/TEMMETA
 
 TEMMETA is a library for transmission electron microscopy (TEM)
 (meta)data manipulation. The aim is to offer a one stop place for
